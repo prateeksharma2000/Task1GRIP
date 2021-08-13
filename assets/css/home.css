@@ -1,0 +1,41 @@
+.main-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
+}
+
+.container1{
+    height: 100%;
+    width: 50%;
+}
+
+.container1 img{
+    height: 100%;
+    width: 100%;
+    transform: rotate(-10deg);
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    padding-top: 1rem;
+}
+
+.container2 .nav-el{
+    margin: 4rem 0 4rem 0;
+    width: 100%;
+    text-align: center;
+}
+
+.container2 .nav-el a{
+    text-decoration: none;
+    font-size: larger;
+}
+
+
+
+

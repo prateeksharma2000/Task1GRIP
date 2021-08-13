@@ -1,0 +1,29 @@
+<h1 class="text-center font-weight-bold mb-2" style="margin:2rem 0 2rem 0">Transaction History</h1>
+<div style="margin: 4rem 5em 4rem 5rem;">
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Sender</th>
+        <th scope="col">Reciever</th>
+        <th scope="col">Amount</th>
+        <th scope="col">Date</th>
+      </tr>
+    </thead>
+    <tbody>
+
+        <% for(transaction of transactionList){%>
+
+            <tr>
+                <th scope="row"><%= transaction.from.name %></th>
+                <td><%= transaction.to.name %></td>
+                <td><%= transaction.amount %></td>
+                <td><%= transaction.createdAt.toISOString().substring(0, 10)%></td>
+            </tr>
+        
+        <%}%>
+
+    </tbody>
+  </table>
+</div>
+
+    
