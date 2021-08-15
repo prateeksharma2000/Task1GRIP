@@ -2,8 +2,14 @@ body {
     margin:0;
     padding:0;
   }
+  header{
+    position: fixed;
+    margin: 0;
+    width: 100vw;
+    top: 0px
+  }
   .navbar {
-    background-color:#ffffff;
+    background-color:#283cf0;
   }
   nav {
     height:130px;
@@ -13,11 +19,11 @@ body {
   }
   .nav-link {
     margin:10px 25px;
-    color:rgb(20, 126, 212);
+    color:rgb(255, 255, 255);
     font-size: larger;
   }
   .nav-link:hover {
-    color:rgb(14, 74, 240);
+    color:rgb(200, 200, 201);
   }
   .box {
     width:100%;

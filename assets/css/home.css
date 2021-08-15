@@ -1,9 +1,13 @@
+body{
+    margin: 0;
+    background-color: rgb(151, 186, 252);
+}
 .main-container{
     display: flex;
     flex-direction: row;
     margin-left: 5rem;
     margin-right: 5rem;
-    margin-top: 3rem;
+    margin-top: 150px;
 }
 
 .container1{
@@ -12,9 +16,8 @@
 }
 
 .container1 img{
-    height: 100%;
+    height: 80%;
     width: 100%;
-    transform: rotate(-10deg);
 }
 
 .container2{
@@ -24,17 +27,43 @@
     width: 50%;
     padding-top: 1rem;
 }
+.container2 .nav-head{
+    margin-top: 6rem;
+    margin-left: 3rem;
+}
+.container2 .nav-head h1{
+    color: white;
+    text-align: center;
+}
+.container2 .nav-head p{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    margin-left: 7.5rem;
+    color: white;
+    text-align: justify;
+}
+
+.container2 .nav{
+    display: flex;
+    flex-direction: row;
+    margin-left: 180px;
+    margin-top: 50px;
+}
 
 .container2 .nav-el{
-    margin: 4rem 0 4rem 0;
-    width: 100%;
+    margin-right: 50px;
     text-align: center;
+    border: 1px solid #0843a8;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0843a8;
 }
 
 .container2 .nav-el a{
     text-decoration: none;
     font-size: larger;
-}
+    color: white;
+} 
 
 
 

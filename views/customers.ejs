@@ -1,8 +1,8 @@
-<h1 class="text-center font-weight-bold mb-2" style="margin:2rem 0 2rem 0">Customers</h1>
+<h1 class="text-center font-weight-bold mb-2" style="margin:10rem 0 2rem 0">Customers</h1>
 <div style="margin: 4rem 5em 4rem 5rem;">
 <table class="table table-striped ml-3 mr-3">
     <thead>
-      <tr>
+      <tr style="background-color: white;">
         <th scope="col">Name</th>
         <th scope="col">E-Mail</th>
         <th scope="col">Balance</th>
@@ -13,11 +13,11 @@
 
         <% for(customer of customersList){%>
 
-            <tr>
+            <tr style="background-color: white;">
                 <th scope="row"><%= customer.name%></th>
                 <td><%= customer.email%></td>
                 <td><%= customer.balance%></td>
-                <td><a href="/transfer/<%=customer._id%>" style="text-decoration: none;">Transfer</a></td>
+                <td><a href="/transfer/<%=customer._id%>" style="text-decoration: none; color: rgb(108, 140, 245);">Transfer</a></td>
             </tr>
 
         <%}%> 
